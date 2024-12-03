@@ -6,7 +6,11 @@
    ```
    git remote add origin [url]
    ```
-3. Push/Publish your code to the remote repository on Github
+3. Verify the remote was created by listing the remotes.
+    ```
+    git remote -v
+    ```
+4. Push/Publish your code to the remote repository on Github
    ```
    git push [remote name] [branch name]
    git push origin main
